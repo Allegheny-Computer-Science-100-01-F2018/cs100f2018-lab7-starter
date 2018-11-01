@@ -1,5 +1,5 @@
 
-# cs100f2018-lab7-solution
+# cs100f2018-lab7-starter
 
 Designed for use with [GitHub Classroom](https://classroom.github.com/), this
 repository contains the starter for Laboratory 7 in Computer Science 100.
