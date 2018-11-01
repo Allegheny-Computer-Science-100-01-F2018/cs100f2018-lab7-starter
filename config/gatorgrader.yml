@@ -1,0 +1,43 @@
+---
+name: cmpsc-100-fall-2018-lab7
+break: true
+indent: 4
+---
+
+src/main:
+    java:
+        labseven/Atm.java:
+            --single 5 --language Java
+            --multi 2 --language Java
+            --fragment "if" --count 2            
+            --fragment "else" --count 2
+            --fragment "getBalance" --count 3
+            --fragment "balance" --count 1
+            --fragment "withdraw" --count 1
+            --fragment "deposit" --count 1
+            --fragment "println(" --count 10
+            --fragment "new Account(" --count 1
+		labseven/Account.java:
+            --multi 5 --language Java
+            --fragment "println(" --count 0
+            --fragment "Account" --count 2
+            --fragment "void deposit(" --count 1
+            --fragment "void withdraw(" --count 1
+            --fragment "double getBalance(" --count 1
+            --fragment "return" --count 1
+            --fragment "if" --count 1
+		labseven/Offer.java:
+            --multi 5 --language Java
+            --fragment "println(" --count 0
+            --fragment "Offer" --count 2
+            --fragment "void setOffer(" --count 1
+            --fragment "String getOfferText(" --count 1
+            --fragment "int getOfferId(" --count 1
+            --fragment "return" --count 2
+
+writing/reflection.md:
+    --paragraphs 3 --exact
+    --words 150
+--commits 4
+
+--command "gradle -q --console plain run" --executes
