@@ -4,11 +4,6 @@
 Designed for use with [GitHub Classroom](https://classroom.github.com/), this
 repository contains the starter for Laboratory 7 in Computer Science 100.
 
- Since the Travis builds for this repository will initially fail (as evidenced by
- a red &#x2717; appearing in the commit logs instead of a green &#x2714;), the
- programmer is responsible for completing all of the steps needed to satisfy the
- requirements for the assignment, thus causing a &#x2714; to instead appear in
- the commit logs.
 
 
 ## Introduction
@@ -54,15 +49,6 @@ following characteristics of your implementation:
   * Include a constructor as specified by the UML diagram in the assignment sheet
   * Include `setOffer`, `getOfferText` and `getOfferId` methods as outlined in the assignment sheet
 
-When you use the `git commit` command to transfer your source code to your
-GitHub repository, [Travis CI](https://travis-ci.com/) will initialize a build
-of your assignment, checking to see if it meets all of the requirements. If both
-your source code and writing meet all of the established requirements, then you
-will see a green &#x2714; in the listing of commits in GitHub. If your
-submission does not meet the requirements, a red &#x2717; will appear instead.
-The instructor will reduce a programmer's grade for this assignment if the red
-&#x2717; appears on the last commit in GitHub immediately before the
-assignment's due date.
 
 A carefully formatted assignment sheet for this project provides more details
 about the steps that a computer scientist should take to complete this
